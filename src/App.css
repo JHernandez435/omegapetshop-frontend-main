@@ -24,6 +24,7 @@
   background-size: cover;
   /* Necesario si se pone un NavBar */
   position: relative;
+  opacity: 75%;
 }
 
 .myDiv {
