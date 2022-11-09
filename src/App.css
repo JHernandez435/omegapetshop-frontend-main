@@ -13,3 +13,21 @@
   /* Needed to position the navbar */
   position: relative;
 }
+
+.bg-ventanas {
+  /* Imagen usada como fondo de los formularios */
+  background-image: url(./images/bg_Ventanas.jpg);
+  min-height: 780px;
+  /* Queda centrada y no se repite */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Necesario si se pone un NavBar */
+  position: relative;
+}
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}

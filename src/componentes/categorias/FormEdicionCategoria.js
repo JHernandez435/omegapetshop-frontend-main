@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import CategoriaServicios from "../../servicios/CategoriaServicios";
 import React from 'react';
+import FondoVentanas from "../general/FondoVentanas";
 
 const FormEdicionCategoria = () => {
     const [nombre, setNombre] = useState("");
@@ -56,8 +57,8 @@ const FormEdicionCategoria = () => {
         cargarCategoria();
     }, [])
 
-
     return (
+        <div className="myDiv">
         <div className="container">
             <h4 className="d-flex justify-content-center mt-5">Editar categoría</h4>
             <div id="formulario">
@@ -84,6 +85,8 @@ const FormEdicionCategoria = () => {
                     </div>
                 </form>
             </div>
+        </div>
+        <FondoVentanas />;
         </div>
     )
 }

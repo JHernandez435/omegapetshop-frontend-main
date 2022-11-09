@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import UsuariosServicios from "../../servicios/UsuariosServicios";
-import React from 'react';
+import FondoVentanas from "../general/FondoVentanas";
 
 const FormUsuarios = () => {
     const { id } = useParams();
@@ -122,6 +122,7 @@ const FormUsuarios = () => {
     }
 
     return (
+        <div className="myDiv">
         <div className="container mt-3">
             <div>Imagen</div>
             <div>
@@ -170,6 +171,8 @@ const FormUsuarios = () => {
                     </div>
                 </form>
             </div>
+        </div>
+        <FondoVentanas />
         </div>
     )
 }

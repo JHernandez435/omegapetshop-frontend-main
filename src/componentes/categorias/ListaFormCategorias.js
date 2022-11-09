@@ -3,6 +3,7 @@ import { useState } from "react";
 import Estados from "../../enums/Estados";
 import CategoriaServicios from "../../servicios/CategoriaServicios";
 import React from 'react';
+import FondoVentanas from "../general/FondoVentanas";
 
 const ListaFormCategorias = () => {
 
@@ -102,6 +103,7 @@ const ListaFormCategorias = () => {
     }
 
     return (
+        <div className="myDiv">
         <div className="container">
             <h4 className="d-flex justify-content-center">Categorías de productos</h4>
             <form action="">
@@ -191,6 +193,8 @@ const ListaFormCategorias = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        <FondoVentanas />;
         </div>
     );
 }

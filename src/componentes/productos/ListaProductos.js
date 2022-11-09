@@ -3,6 +3,7 @@ import { useState } from "react";
 import Estados from "../../enums/Estados";
 import ProductoServicios from "../../servicios/ProductoServicios";
 import React from 'react';
+import FondoVentanas from "../general/FondoVentanas";
 
 const ListaProductos = () => {
 
@@ -29,6 +30,7 @@ const ListaProductos = () => {
     }, [])
 
     return (
+        <div className="myDiv">
         <div className="container">
             <h4>Lista de productos<a href="/productos/form" className="btn btn-sm btn-primary ms-3">Añadir producto</a> </h4>
             <form action="">
@@ -96,6 +98,8 @@ const ListaProductos = () => {
                     </tbody>
                 </table>
             </div>
+        </div>
+        <FondoVentanas />;
         </div>
     )
 }

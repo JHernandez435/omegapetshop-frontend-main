@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import CategoriaServicios from "../../servicios/CategoriaServicios";
 import ProductoServicios from "../../servicios/ProductoServicios";
 import React from 'react';
+import FondoVentanas from "../general/FondoVentanas";
 
 const FormProducto = () => { 
 
@@ -73,6 +74,7 @@ const FormProducto = () => {
 
 
     return (
+        <div className="myDiv">
         <form className="container">
             <h4 className="mb-3">Formulario de productos</h4>
             <div className="row">
@@ -117,6 +119,8 @@ const FormProducto = () => {
                 </div>
             </div>
         </form>
+        <FondoVentanas />
+        </div>
     );
 }
 
