@@ -5,6 +5,7 @@
 <h1>Proyecto página WEB - Desarrollado en JS, MongoDB, Boostrap y REACT</h1>
 <h2>Autores : Grupo 01</h2>
 <h2>Profesor : Carlos Andrés Palma Suárez</h2>
+<h2>Autores : Ismael Arévalo, Jimmy Castro, Jonathan Hernández y Cesar Hernández<h2>
 <h3>Descripción :</h3>
 <h4>Esta es una aplicación códificada en JAVACRIPT cuyo propósito es gestionar la tienda de mascotas JODA Petshop. Se utiliza REACT como framework y Bootstrap para facilitar el desarrollo WEB.</h4>
 
