@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import UsuariosServicios from "../../servicios/UsuariosServicios";
+import React from 'react';
 
 const FormUsuarios = () => {
     const { id } = useParams();

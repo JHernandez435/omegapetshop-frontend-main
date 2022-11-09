@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Estados from "../../enums/Estados";
 import CategoriaServicios from "../../servicios/CategoriaServicios";
+import React from 'react';
 
 const ListaFormCategorias = () => {
 

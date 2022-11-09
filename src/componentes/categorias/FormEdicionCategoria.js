@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import CategoriaServicios from "../../servicios/CategoriaServicios";
+import React from 'react';
 
 const FormEdicionCategoria = () => {
     const [nombre, setNombre] = useState("");
@@ -54,6 +55,7 @@ const FormEdicionCategoria = () => {
     useEffect(() => {
         cargarCategoria();
     }, [])
+
 
     return (
         <div className="container">
