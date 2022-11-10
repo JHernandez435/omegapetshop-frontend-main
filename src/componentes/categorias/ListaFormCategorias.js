@@ -104,7 +104,7 @@ const ListaFormCategorias = () => {
 
     return (
         <div className="myDiv">
-        <div className="container">
+        <div className="container mt-5">
             <h4 className="d-flex justify-content-center">Categorías de productos</h4>
             <form action="">
                 <div className="row">

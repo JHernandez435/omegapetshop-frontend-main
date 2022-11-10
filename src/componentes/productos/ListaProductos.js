@@ -31,7 +31,7 @@ const ListaProductos = () => {
 
     return (
         <div className="myDiv">
-        <div className="container">
+        <div className="container mt-5">
             <h4>Lista de productos<a href="/productos/form" className="btn btn-sm btn-primary ms-3">Añadir producto</a> </h4>
             <form action="">
                 <div className="row">

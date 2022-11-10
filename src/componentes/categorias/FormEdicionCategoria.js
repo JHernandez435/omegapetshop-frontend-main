@@ -59,7 +59,7 @@ const FormEdicionCategoria = () => {
 
     return (
         <div className="myDiv">
-        <div className="container">
+        <div className="container mt-5">
             <h4 className="d-flex justify-content-center mt-5">Editar categoría</h4>
             <div id="formulario">
                 <form action="">

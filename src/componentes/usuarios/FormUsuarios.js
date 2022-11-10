@@ -123,7 +123,7 @@ const FormUsuarios = () => {
 
     return (
         <div className="myDiv">
-        <div className="container mt-3">
+        <div className="container mt-5">
             <div>Imagen</div>
             <div>
                 <h3>{titulo} de usuarios</h3>

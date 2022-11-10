@@ -7,7 +7,7 @@ const Footer = () => {
                 <p class="col-md-4 mb-0 text-muted">&copy; Tripulantes U2-Grupo 01 - MinTic 2022</p>
 
                 <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                    <img src={FooterMinTic} alt="HeaderYoda" width="900" height="100"></img>
+                    <img src={FooterMinTic} alt="HeaderYoda" width="500" height="80"></img>
                 </a>
 
                 <ul class="nav col-md-4 justify-content-end">

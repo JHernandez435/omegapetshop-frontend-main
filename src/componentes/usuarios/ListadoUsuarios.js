@@ -69,7 +69,7 @@ const ListadoUsuarios = () => {
 
     return (
         <div className="myDiv">
-        <div className="container">
+        <div className="container mt-5">
             <h4>Lista de Usuarios<a href="/usuarios/form" className="btn btn-sm btn-primary ms-3">Añadir Usuario</a> </h4>
             {/* <form action="">
                 <input type="text" value={criterio} onChange={cambiarCriterio} id="criterio" name="criterio" />

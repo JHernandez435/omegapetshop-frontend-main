@@ -75,7 +75,7 @@ const FormProducto = () => {
 
     return (
         <div className="myDiv">
-        <form className="container">
+        <form className="container mt-5">
             <h4 className="mb-3">Formulario de productos</h4>
             <div className="row">
                 <div className="mb-3 col-4">
