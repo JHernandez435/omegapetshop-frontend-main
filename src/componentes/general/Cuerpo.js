@@ -20,35 +20,36 @@ const Cuerpo = () => {
                         <img src={imgComida} class="img-fluid mx-auto d-right w-40 max-width: 70% height: auto" alt="ImagenComida"></img>
                             <div class="carousel-caption d-none d-md-block">
                                 <h1 style={{color:"#D35400"}}>Comida para mascotas</h1>
-                                <h2 style={{color:"#FBFF00"}}>Tenemos las mejores y más nutritivas comidas para tu mascota.</h2>
+                                <h2 style={{color:"#FBFF00"}}>Comidas variadas y nutritivas.</h2>
                             </div>
                     </div>
                     <div class="carousel-item">
-                        <img src={imgMosaico} class="img-fluid mx-auto d-block w-40 max-width: 70% height: auto" alt="ImagenMosaico"></img>
+                        <img src={imgMosaico} class="img-fluid mx-auto d-right w-40 max-width: 70% height: auto" alt="ImagenMosaico"></img>
                             <div class="carousel-caption d-none d-md-block">
+                                <br></br>
                                 <h1 style={{color:"#D35400"}}>Especialistas en mascotas</h1>
                                 <h2 style={{color:"#FBFF00"}}>Productos nacionales e importados.</h2>
                             </div>
                     </div>
                     <div class="carousel-item">
-                        <img src={imgPerroDisfraz} class="img-fluid mx-auto d-block w-40 max-width: 70% height: auto" alt="ImagenPerroDisfraz"></img>
-                            <div class="carousel-caption d-none d-md-left">
+                        <img src={imgPerroDisfraz} class="img-fluid mx-auto d-right w-40 max-width: 70% height: auto" alt="ImagenPerroDisfraz"></img>
+                            <div class="carousel-caption d-none d-md-block">
                                 <h1 style={{color:"#D35400"}}>Vestuario variado</h1>
                                 <h2 style={{color:"#FBFF00"}}>Vestuario para toda ocasión.</h2>
                             </div>
                     </div>
                     <div class="carousel-item">
-                        <img src={imgJuguetes} class="img-fluid mx-auto d-block w-40 max-width: 70% height: auto" alt="ImagenJuguetes"></img>
+                        <img src={imgJuguetes} class="img-fluid mx-auto d-right w-40 max-width: 70% height: auto" alt="ImagenJuguetes"></img>
                             <div class="carousel-caption d-none d-md-block">
                                 <h1 style={{color:"#D35400"}}>Juguetes para tu mascota</h1>
                                 <h2 style={{color:"#FBFF00"}}>La mayor diversión para tu mascota.</h2>
                             </div>
                     </div>
                     <div class="carousel-item">
-                        <img src={imgMedicinas} class="img-fluid mx-auto d-block w-40 max-width: 70% height: auto" alt="ImagenMedicinas"></img>
-                            <div class="carousel-caption d-none d-md-right">
+                        <img src={imgMedicinas} class="img-fluid mx-auto d-right w-40 max-width: 70% height: auto" alt="ImagenMedicinas"></img>
+                            <div class="carousel-caption d-none d-md-block">
                                 <h1 style={{color:"#D35400"}}>Medicinas de la mas alta calidad</h1>
-                                <h2 style={{color:"#FBFF00"}}>Lo que tu veterinario quiere para tu mascota, acá lo tenemos!</h2>
+                                <h2 style={{color:"#FBFF00"}}>Tu mascota necesita las mejores medicinas!</h2>
                             </div>
                     </div>
                 </div>

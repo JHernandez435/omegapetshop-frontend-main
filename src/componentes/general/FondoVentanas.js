@@ -1,8 +1,6 @@
 const FondoVentanas = () => {
     return (
-        <div class="bg-ventanas">
-
-        </div>
+        <div class="bg-ventanas"></div>
     )
 }
 
