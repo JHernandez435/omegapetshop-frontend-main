@@ -19,7 +19,7 @@ const Cuerpo = () => {
                     <div class="carousel-item active" data-bs-interval="3001">
                         <img src={imgComida} class="img-fluid mx-auto d-right w-40 max-width: 70% height: auto" alt="ImagenComida"></img>
                             <div class="carousel-caption d-none d-md-block">
-                                <h1 style={{color:"#D35400"}}>Comida para mascotas</h1>
+                                <h1 style={{color:"#D35400"}}>Tu mascota merece lo mejor</h1>
                                 <h2 style={{color:"#FBFF00"}}>Comidas variadas y nutritivas.</h2>
                             </div>
                     </div>
@@ -34,7 +34,7 @@ const Cuerpo = () => {
                     <div class="carousel-item">
                         <img src={imgPerroDisfraz} class="img-fluid mx-auto d-right w-40 max-width: 70% height: auto" alt="ImagenPerroDisfraz"></img>
                             <div class="carousel-caption d-none d-md-block">
-                                <h1 style={{color:"#D35400"}}>Vestuario variado</h1>
+                                <h1 style={{color:"#D35400"}}>Los mejores outfits para tu mascota</h1>
                                 <h2 style={{color:"#FBFF00"}}>Vestuario para toda ocasión.</h2>
                             </div>
                     </div>
@@ -48,8 +48,8 @@ const Cuerpo = () => {
                     <div class="carousel-item">
                         <img src={imgMedicinas} class="img-fluid mx-auto d-right w-40 max-width: 70% height: auto" alt="ImagenMedicinas"></img>
                             <div class="carousel-caption d-none d-md-block">
-                                <h1 style={{color:"#D35400"}}>Medicinas de la mas alta calidad</h1>
-                                <h2 style={{color:"#FBFF00"}}>Tu mascota necesita las mejores medicinas!</h2>
+                                <h1 style={{color:"#D35400"}}>La salud de tu mascota es prioridad</h1>
+                                <h2 style={{color:"#FBFF00"}}>Tenemos los mejores medicamentos!</h2>
                             </div>
                     </div>
                 </div>

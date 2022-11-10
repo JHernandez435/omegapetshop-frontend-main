@@ -7,6 +7,7 @@ import ListaFormCategorias from "./componentes/categorias/ListaFormCategorias";
 import FormEdicionCategoria from "./componentes/categorias/FormEdicionCategoria";
 import Header from "./componentes/general/Header";
 import Cuerpo from "./componentes/general/Cuerpo";
+import Footer from "./componentes/general/Footer";
 import './App.css';
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
           {/* <Route path="/agentes" element={<ListadoAgentes/>} exact></Route> */}
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
